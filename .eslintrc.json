@@ -1,0 +1,29 @@
+{
+  "extends": ["next/core-web-vitals", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "root": true,
+  "rules": {
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ],
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal"
+        ],
+        "newlines-between": "always"
+      }
+    ],
+    "@typescript-eslint/consistent-type-imports": "error"
+  }
+}
