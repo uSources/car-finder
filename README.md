@@ -1,4 +1,4 @@
-🚗 [Car finder]https://car-finder-eight.vercel.app/ 🚗
+🚗 [Car finder](https://car-finder-eight.vercel.app/) 🚗
 
 ## Getting Started
 
